@@ -1,0 +1,25 @@
+{
+  "name": "depenedy-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "cli-table": "^0.3.11",
+    "commander": "^9.3.0",
+    "conf": "^10.1.2",
+    "csv": "^6.1.0",
+    "fs-stream-sync": "^2.0.11",
+    "node-fetch": "^2.6.6",
+    "semver": "^7.3.7"
+  },
+  "bin": {
+    "myawesometool": "./index.js"
+  }
+}
